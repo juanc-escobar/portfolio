@@ -1,0 +1,156 @@
+
+/* General CSS */
+
+.title-h1 {
+    font-size: calc(50px + 0.390625vw);
+    text-align: center;
+  }
+  
+  .title-h2  {
+    font-size: calc(30px + 0.390625vw);
+    text-align: center;
+}
+
+@media only screen and (min-width: 940px) {
+
+    .title-h1  {
+        font-size: calc(60px + 0.390625vw);
+        text-align: left;
+    }
+
+    .title-h2 {
+        font-size: calc(40px + 0.390625vw);
+        text-align: left;
+    }
+        
+}
+
+
+
+/* End of General CSS */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 175px);
+    width: 90%;
+    margin: auto;
+}
+
+@media screen and (min-width: 1200px) {
+    .main {
+        max-width: 50%;
+        margin: auto;
+    }
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(350px, 1fr));
+    gap: 2rem;
+    margin: 5rem 0;
+}
+
+@media screen and (max-width: 940px) {
+    .grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+.hand {
+    animation-name: wave;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+  }
+
+  @keyframes wave {
+    0% { transform: rotate( 0.0deg) }
+    10% { transform: rotate(14.0deg) }
+    20% { transform: rotate(-8.0deg) }
+    30% { transform: rotate(14.0deg) }
+    40% { transform: rotate(-4.0deg) }
+    50% { transform: rotate(10.0deg) }
+    60% { transform: rotate( 0.0deg) }
+    100% { transform: rotate( 0.0deg) }
+  }
+
+
+.main-container {
+    max-width: 60%;
+    margin: auto;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 940px) {
+    .main-container {
+        max-width: 99%;
+        margin: auto;
+    }
+}
+
+
+/* Start TextBox CSS */
+.text-box {
+    width: 100%;
+    margin: auto;
+}
+
+.text-box-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-box-container p {
+    margin: 2rem 0;
+    font-size: calc(16px + 0.390625vw);
+    max-width: 650px;
+    text-align: center;
+}
+
+.name-decoration{
+    background: -webkit-linear-gradient(#00dfc0, #018673 );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (min-width: 940px) {
+
+    .text-box-container p {
+        margin: 2rem 0;
+        font-size: calc(16px + 0.390625vw);
+        padding-right: 2rem;
+        max-width: 650px;
+        text-align: left;
+    }
+        
+}
+
+
+
+
+/* End TextBox CSS */
+
+/* Start ImgBox CSS */
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 70vh;
+}
+
+@media screen and (max-width: 940px) {
+ 
+    .img {
+        width: 35vh;
+    }
+
+}
+/* End ImgBox CSS */

@@ -1,0 +1,20 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.about-title{
+    font-size: calc(60px + 0.390625vw);
+    margin-bottom: 2rem;
+}
+
+.about-p{
+    font-size: calc(16px + 0.390625vw);
+    margin-bottom: 1rem;
+    max-width: 700px;
+    text-align: left;
+}
