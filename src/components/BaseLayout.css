@@ -1,6 +1,48 @@
-.spa-container {
+.spa {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
     justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.spa-body {
+    width: 98%;
+    margin: auto;
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .spa-body {
+        width: 95%;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .spa-body {
+        width: 90%;
+    }
+    
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .spa-body {
+        width: 80%;
+    }
+    
+
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1980px) {
+    .spa-body {
+        width: 70%;
+    }
+    
+}
+
+@media screen and (min-width: 1981px) {
+    .spa-body {
+        width: 60%;
+    }
+    
 }

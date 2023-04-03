@@ -4,11 +4,13 @@
 .title-h1 {
     font-size: calc(50px + 0.390625vw);
     text-align: center;
+    margin-bottom: 1rem;
   }
   
   .title-h2  {
     font-size: calc(30px + 0.390625vw);
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 @media only screen and (min-width: 940px) {
@@ -29,35 +31,31 @@
 
 /* End of General CSS */
 
-.main {
+.home-main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: calc(100vh - 175px);
-    width: 90%;
-    margin: auto;
 }
 
-@media screen and (min-width: 1200px) {
-    .main {
-        max-width: 50%;
-        margin: auto;
-    }
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: repeat(2, minmax(350px, 1fr));
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 2rem;
-    margin: 5rem 0;
 }
 
-@media screen and (max-width: 940px) {
-    .grid{
-        grid-template-columns: repeat(1,1fr);
+@media screen and (min-width: 992px) {
+    .home-container  {
+        flex-direction: row;
+        gap: 4rem;
     }
+    
 }
+
+
 
 .hand {
     animation-name: wave;
@@ -79,19 +77,6 @@
   }
 
 
-.main-container {
-    max-width: 60%;
-    margin: auto;
-    overflow-x: hidden;
-}
-
-@media screen and (max-width: 940px) {
-    .main-container {
-        max-width: 99%;
-        margin: auto;
-    }
-}
-
 
 /* Start TextBox CSS */
 .text-box {
@@ -102,12 +87,12 @@
 .text-box-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
-.text-box-container p {
-    margin: 2rem 0;
+.text-box-text {
     font-size: calc(16px + 0.390625vw);
-    max-width: 650px;
+    max-width: 600px;
     text-align: center;
 }
 
@@ -146,10 +131,10 @@
     width: 70vh;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 992px) {
  
     .img {
-        width: 35vh;
+        width: 40vh;
     }
 
 }

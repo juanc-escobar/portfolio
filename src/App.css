@@ -31,17 +31,3 @@ ul {
 }
 
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
-}
-
-@media only screen and (min-width: 940px) {
-    .container {
-        flex-direction: row;
-    }
-    
-}

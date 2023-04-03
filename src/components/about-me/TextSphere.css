@@ -1,0 +1,49 @@
+.skill__cloud {
+    position: relative;
+    left: -20%;
+    max-width: 95%;
+  }
+
+  .tagcloud {
+    position: relative;
+    top: 0;
+    left: 5%;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: 0.0625em;
+    font-family: 'Roboto';
+    font-size: calc(12px + 0.390625vw);
+  }
+
+  /* Change color of each text in sphere on hover   */
+  .tagcloud--item {
+    color: black;
+    text-transform: uppercase;
+  }
+
+  .tagcloud--item:hover {
+    color: #018673;
+  }
+
+  @media screen and (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .skill__cloud {
+    left: -20%;
+  }
+      
+}
+
+@media screen and (min-width: 1600px) {
+  .skill__cloud {
+    left: -10%;
+  }
+    
+}
+
+

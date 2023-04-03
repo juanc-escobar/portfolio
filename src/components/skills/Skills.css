@@ -3,7 +3,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 4rem;
+    gap: 1rem;
+    min-height: calc(100vh - 175px);
+    width: 95%;
+    margin: 2rem 0;
 }
 
 .text-container {
@@ -12,14 +15,16 @@
 
 
 .skills-title{
-    font-size: 5rem;
+    font-size: calc(50px + 0.390625vw);
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .skills-p{
-    font-size: 1.6rem;
+    font-size: calc(16px + 0.390625vw);
     margin-bottom: 1rem;
     max-width: 800px;
+    text-align: center;
 }
 
 .text-green {
@@ -27,9 +32,18 @@
     font-weight: 800;
 }
 
-@media only screen and (min-width: 940px) {
+@media only screen and (min-width: 1199px) {
     .skills-container {
         flex-direction: row;
+        gap: 4rem;
+    }
+
+    .skills-title{
+        text-align:left;
+    }
+    
+    .skills-p{
+        text-align: left;
     }
     
 }

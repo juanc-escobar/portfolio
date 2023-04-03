@@ -5,8 +5,8 @@ import "./Home.css"
 
 const Home = () => {
   return (
-    <main className="main">
-        <div className='container'>
+    <main className="spa-body home-main">
+        <div className='home-container'>
             <TextBox />
             <ImgBox />
         </div>

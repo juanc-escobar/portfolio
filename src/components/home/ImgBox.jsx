@@ -1,5 +1,5 @@
 import "./Home.css"
-import profilePicture from '../../assets/images/profile-img.jpg'
+import profilePicture from '../../assets/images/profile-img.webp'
 
 const ImgBox = () => {
   return (

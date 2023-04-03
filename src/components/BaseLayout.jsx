@@ -11,7 +11,7 @@ import { Route, Routes } from "react-router-dom"
 const BaseLayout = () => {
   return (
     <>
-    <div className="spa-container">
+    <div className="spa">
         <Nav />
         <Routes>
             <Route exact path={'/'} element= {<Home />}/>
