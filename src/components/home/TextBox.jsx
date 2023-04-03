@@ -1,5 +1,5 @@
 import "./Home.css"
-import { info } from "../info/info"
+import { info } from "../info/Info"
 
 const TextBox = () => {
   return (
