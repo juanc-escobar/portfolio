@@ -33,6 +33,26 @@
     text-align: center;
 }
 
+
+.about-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-img {
+    width: 70vh;
+}
+
+@media screen and (max-width: 992px) {
+ 
+    .img {
+        width: 40vh;
+    }
+
+}
+
+
 @media screen and (min-width: 576px) and (max-width: 767px) {
     .body-container {
         max-width: 90%;

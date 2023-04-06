@@ -103,7 +103,7 @@
     -webkit-text-fill-color: transparent;
 }
 
-@media only screen and (min-width: 940px) {
+@media only screen and (min-width: 992px) {
 
     .text-box-container p {
         margin: 2rem 0;
