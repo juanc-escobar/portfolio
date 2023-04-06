@@ -13,7 +13,7 @@
     margin-bottom: 1rem;
 }
 
-@media only screen and (min-width: 940px) {
+@media only screen and (min-width: 992px) {
 
     .title-h1  {
         font-size: calc(60px + 0.390625vw);
@@ -103,7 +103,11 @@
     -webkit-text-fill-color: transparent;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px)  {
+
+    .text-box {
+        width: 90%;
+    }
 
     .text-box-container p {
         margin: 2rem 0;
@@ -111,9 +115,22 @@
         padding-right: 2rem;
         max-width: 650px;
         text-align: left;
-    }
-        
+    }   
 }
+    @media only screen and (min-width: 1200px)  {
+
+        .text-box {
+            width: 70%;
+        }
+    
+        .text-box-container p {
+            margin: 2rem 0;
+            font-size: calc(16px + 0.390625vw);
+            padding-right: 2rem;
+            max-width: 650px;
+            text-align: left;
+        }   
+    }
 
 
 
