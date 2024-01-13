@@ -1,3 +1,4 @@
+import kunawaStore from "~/assets/images/kunawa.webp"
 import kunawaStore from "../../assets/images/kunawa.webp"
 import calmpal from "../../assets/images/calmpal.webp"
 import profileImg from '../../assets/images/profile-img.webp'
