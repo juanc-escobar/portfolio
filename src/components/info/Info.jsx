@@ -1,6 +1,3 @@
-import homeTek from "../../assets/images/home-tek-img.webp"
-import dbStore from "../../assets/images/db-store-img.webp"
-import platzzaStore from "../../assets/images/platzza-store-img.webp"
 import kunawaStore from "../../assets/images/kunawa.webp"
 import calmpal from "../../assets/images/calmpal.webp"
 import profileImg from '../../assets/images/profile-img.webp'
