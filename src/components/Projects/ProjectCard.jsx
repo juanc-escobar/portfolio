@@ -5,9 +5,13 @@ const ProjectCard = (props) => {
   const {image,live,source,title,description} = props;
   return (
     <div className="project-card">
-        <div className="card-header">
-            <img src={image} alt="html & css project" />
-        </div>
+        {image ? (
+          <img src={image} alt={title} loading="lazy" />
+        ) : (
+          <div className="preview-container">
+            <iframe className="preview" src={live} loading="lazy" />
+          </div>
+        )}
         <div className="card-body">
             <p>{description}</p>
         </div>
