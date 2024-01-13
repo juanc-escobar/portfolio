@@ -1,7 +1,7 @@
 import homeTek from "../../assets/images/home-tek-img.webp"
 import dbStore from "../../assets/images/db-store-img.webp"
 import platzzaStore from "../../assets/images/platzza-store-img.webp"
-import kunawa from "../../assets/images/kunawa.webp"
+import kunawaStore from "../../assets/images/kunawa.webp"
 import calmpal from "../../assets/images/calmpal.webp"
 import profileImg from '../../assets/images/profile-img.webp'
 
@@ -32,7 +32,7 @@ export const info = {
             live: "https://kunawaofficial.com/",
             source: "",
             description: "Kunawa Store represents an e-commerce platform crafted on Shopify. This project, undertaken on a freelance basis, was commissioned by an artisanal handbag brand in Colombia seeking to enhance its online presence through the establishment of a sophisticated e-commerce store.",
-            image: kunawa,
+            image: kunawaStore,
         },
         {
             title: "Space-site",
